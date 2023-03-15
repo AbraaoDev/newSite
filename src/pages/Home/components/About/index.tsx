@@ -8,7 +8,7 @@ export function About(){
     return(
         <AboutContainer>
             <div className="container">
-                <p>Um pouco sobre mim</p>
+                <p><span>Um pouco sobre mim</span></p>
 
                 <AboutContent>
                     <ImageSide>

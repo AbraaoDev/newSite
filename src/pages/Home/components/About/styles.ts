@@ -10,10 +10,30 @@ export const AboutContainer = styled.div`
     div{
         position: absolute;
 
-        p{
+        > p{
 
             font-size: 0.875rem;
             color: ${({theme }) => theme.colors["white-span"]};
+            position: relative;
+
+            span{
+                background: ${({theme}) => theme.colors["base-black"]};
+                padding: 0 20px 0  0;
+            }
+
+            &::before{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 2px;
+                background: ${({theme}) => theme.colors["line-white"]};
+                position: absolute;
+                left: 0;
+                top: 50%;
+                z-index: -1;
+                
+            }
+            
         }
         
     }
