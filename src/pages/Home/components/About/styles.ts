@@ -17,7 +17,8 @@ export const AboutContainer = styled.div`
       span {
         background: ${({ theme }) => theme.colors["base-black"]};
         padding-inline: 0.75em;
-        transform: translateX(-0.75em);
+        position: relative;
+        left: -0.75em;
       }
     }
   }
