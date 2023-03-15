@@ -13,9 +13,11 @@ import { GitlabLogoSimple, InstagramLogo, LinkedinLogo } from "phosphor-react";
 export function About() {
   return (
     <AboutContainer>
-      <p className="section-divider">
-        <span>Um pouco sobre mim</span>
-      </p>
+      <div className="section-divider">
+        <p>
+          <span>Um pouco sobre mim</span>
+        </p>
+      </div>
       <div className="container">
         <AboutContent>
           <ImageSide>

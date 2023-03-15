@@ -7,13 +7,18 @@ export const AboutContainer = styled.div`
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: center;
-    text-indent: 10%;
     font-size: 0.875rem;
     color: ${({ theme }) => theme.colors["white-span"]};
 
-    span {
-      background: ${({ theme }) => theme.colors["base-black"]};
-      padding-inline: 0.75em;
+    p {
+      max-width: 70rem;
+      margin-inline: auto;
+
+      span {
+        background: ${({ theme }) => theme.colors["base-black"]};
+        padding-inline: 0.75em;
+        transform: translateX(-0.75em);
+      }
     }
   }
 `;
