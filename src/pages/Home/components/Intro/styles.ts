@@ -71,6 +71,15 @@ export const SectionEsq = styled.section`
             }
             
         }
+
+        .move{
+            transition: .4s ease;
+        }
+
+        .move:hover{
+            transform: translateX(20%);
+
+        }
        
     }
 

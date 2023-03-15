@@ -20,7 +20,7 @@ export function Intro(){
                         <Rocket size={18}/>
                         <div className="border-svg"></div>
                         <span>Veja quais <strong>tecnologias</strong> utilizamos</span>
-                        <CaretRight size={18} />
+                        <CaretRight className="move" size={18} />
 
                     </a>
 
