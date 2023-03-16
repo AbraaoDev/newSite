@@ -7,10 +7,17 @@ export const AboutContainer = styled.div`
     align-items: center;
     justify-content: center;
 
+    
+
     div{
         position: absolute;
 
         > p{
+            background: linear-gradient(#1f1f1f, #1f1f1f);
+            background-size: 100% 1px;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-indent: 10%;
 
             font-size: 0.875rem;
             color: ${({theme }) => theme.colors["white-span"]};
@@ -18,24 +25,15 @@ export const AboutContainer = styled.div`
 
             span{
                 background: ${({theme}) => theme.colors["base-black"]};
-                padding: 0 20px 0  0;
+                padding-inline: .5rem;
             }
 
-            &::before{
-                content: "";
-                display: block;
-                width: 100%;
-                height: 2px;
-                background: ${({theme}) => theme.colors["line-white"]};
-                position: absolute;
-                left: 0;
-                top: 50%;
-                z-index: -1;
-                
-            }
+            
+
+        
             
         }
-        
+   
     }
 `
 
