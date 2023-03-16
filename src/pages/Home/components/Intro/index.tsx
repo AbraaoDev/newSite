@@ -3,7 +3,7 @@ import mapHeroHome from '../../../../assets/mapHeroHome.svg'
 import rocketHeroHome from '../../../../assets/rocketHeroHome.svg'
 import pointLocal from '../../../../assets/point.svg'
 
-import { CaretRight, FireSimple, Rocket } from "phosphor-react";
+import { CaretRight, FireSimple, Lightning, Rocket } from "phosphor-react";
 
 export function Intro(){
     return(
@@ -17,7 +17,7 @@ export function Intro(){
                 
                 <SectionEsq>
                     <a >
-                        <Rocket size={18}/>
+                        <Lightning size={18} weight="fill"/>
                         <div className="border-svg"></div>
                         <span>Veja quais <strong>tecnologias</strong> utilizamos</span>
                         <CaretRight className="move" size={18} />

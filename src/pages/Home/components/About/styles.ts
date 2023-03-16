@@ -78,7 +78,7 @@ export const TextSide = styled.section`
             font-weight: 500;
             line-height: 3.125rem;
             margin-bottom: 2rem;
-            color: ${({theme}) => theme.colors["base-white"]};
+            color: ${({theme}) => theme.colors["second-white"]};
         }
 
         span{
