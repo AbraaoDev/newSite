@@ -25,7 +25,7 @@ export function Intro(){
                     </a>
 
                     <h1>Desenvolva o seu futuro<span>.</span></h1>
-                    <p>Landing Pages(Enterprise) e Aplicações Web<br></br>
+                    <p>Landing Pages(Business) e Aplicações Web<br></br>
                     com a trajetória do Visual para o Código.</p>
 
                     <aside>
