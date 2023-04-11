@@ -2,6 +2,7 @@ export const defaultTheme = {
     colors: {
       "base-white": "#FFFFFF",
       "second-white": "#B3B0B8",
+      "brand-white": "rgba(255, 255, 255, 0.8)",
       "three-white": "rgba(255, 255, 255, 0.5)",
       "line-white": "rgba(255, 255, 255, 0.2)",
       "base-black": "#000000",

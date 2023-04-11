@@ -1,7 +1,7 @@
 import { AboutContainer, AboutContent, FooterAbout, ImageSide, SocialButtons, TextSide } from "./styles";
 import personalImg from '../../../../assets/personalImage.svg'
 import helloAll from '../../../../assets/helloAll.svg'
-import { GitlabLogoSimple, InstagramLogo, LinkedinLogo } from "phosphor-react";
+import { GitlabLogoSimple, InstagramLogo } from "phosphor-react";
 
 
 export function About(){

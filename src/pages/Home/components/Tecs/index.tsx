@@ -1,4 +1,6 @@
-import { SectionUp, TecsContainer } from "./styles";
+import { FileCss, FileHtml, FileJs, FileTs } from "phosphor-react";
+import { SectionDown, SectionUp, TecsContainer } from "./styles";
+
 
 export function Tecs(){
     return(
@@ -11,6 +13,9 @@ export function Tecs(){
                     <p>Essas são responsáveis por<br></br>
                     sua marca.</p>
                 </SectionUp>
+                <SectionDown>
+                  
+                </SectionDown>
             </div>
         </TecsContainer>
     )

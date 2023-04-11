@@ -2,16 +2,15 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
     width: 100%;
-    height: 25rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 12rem;
+
 
     
 
     div{
-        position: absolute;
-
         > p{
             background: linear-gradient(#1f1f1f, #1f1f1f);
             background-size: 100% 1px;
@@ -99,17 +98,18 @@ export const FooterAbout = styled.div`
     display: flex;
     align-items: center;
     
+    
     color: rgba(255, 255, 255, 0.65);
 
     .divisor{
         content: "";
         height: 2.3rem;
         border-right: 2px solid rgba(255, 255, 255, 0.65);
-        margin-left: 9rem;
+        margin-left: 2rem;
     }
 
     span{
-        margin-left: 10rem;
+        margin-left: 2rem;
         font-weight: 300;
     }
 

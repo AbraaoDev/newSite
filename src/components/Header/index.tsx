@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 import { HeaderButton, HeaderContainer, HeaderContent } from "./styles";
-import logoWEB from '../../assets/logo.svg'
+import logoWEB from '../../assets/logoHeader.svg'
 import { FireSimple } from 'phosphor-react'
 
 
